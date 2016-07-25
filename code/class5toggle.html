@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style>
+.active{ width:100px; height:100px; background:#096;}
+.box{ width:100px; height:100px; background:orange;border-radius:50%; }
+
+</style>
+<script>
+	window.onload=function(){
+		var oDiv=document.querySelector('div');
+		document.onclick=function(){
+			oDiv.classList.toggle('box');	
+		};
+	};
+</script>
+</head>
+
+<body>
+<div class="on active"></div>
+</body>
+</html>

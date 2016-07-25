@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style>
+.box{ width:100px; height:100px; background:orange;}
+.aa{border-radius:30px;}
+</style>
+<script>
+	window.onload=function(){
+		var oDiv=document.querySelector('div');
+		oDiv.classList.add('box');	
+		oDiv.classList.remove('hh');	//删除类名
+	};
+</script>
+</head>
+
+<body>
+<div class="on active hh aa"></div>
+</body>
+</html>

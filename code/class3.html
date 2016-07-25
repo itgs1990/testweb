@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style>
+.box{ width:100px; height:100px; background:orange;}
+</style>
+<script>
+	window.onload=function(){
+		var oDiv=document.querySelector('div');
+		oDiv.classList.add('box');	
+		alert(oDiv.classList.contains('box'));	//true 检测是否包含了box的类名
+	};
+</script>
+</head>
+
+<body>
+<div class="on active"></div>
+</body>
+</html>

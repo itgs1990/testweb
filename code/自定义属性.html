@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<script>
+	window.onload=function(){
+		var oT=document.querySelector('input');
+		for( var name in oT.dataset){
+			document.write(name+'='+oT.dataset[name]+'<br />');	
+		}	
+	};
+</script>
+</head>
+
+<body>
+<input type="text" data-index="aa" data-index2="bb" data-index3='cc' >
+</body>
+</html>
